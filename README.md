@@ -18,6 +18,8 @@ Simple to use shake listener simply bind to an existing accelerometer event list
             }
 
 // check that it it's good to go.
+
+
 	        private void Shaken(Accelerometer sender, AccelerometerReadingChangedEventArgs args)
 	        {
 	        	 AccelerometerReading red =  sender.GetCurrentReading();
